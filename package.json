@@ -1,0 +1,25 @@
+{
+  "name": "csui",
+  "version": "0.1.0",
+  "description": "基于 vue-cli3的UI组件库",
+  "main": "lib/xr-ui.umd.min.js",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name cs-ui --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "chromedriver": "^2.46.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
